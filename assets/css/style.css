@@ -1,0 +1,172 @@
+/* Font List */
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@200;300&display=swap');
+
+body {
+    background-color: rgb(21, 24, 46)
+}
+.navbar-text {
+    font-family: monospace;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.bg-custom {
+    background-color: rgb(22, 25, 43);
+}
+
+.custom-h1 {
+    font-family: 'Bungee Spice', cursive;
+    font-weight: 500;
+    color: #ffff;
+    font-size: 380%;
+    padding-top: 4rem;
+}
+
+.custom-p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-family: 'Catamaran', sans-serif;
+    font-size: 120%;
+    padding-bottom: 1rem;
+}
+
+.str-bs {
+    padding-top: 4rem;
+    text-align: center;
+    font-family: 'Bungee Spice', cursive;
+}
+.str-bs h2 {
+    font-size: 280%;
+}
+.home-el {
+    background-color: rgb(22, 25, 43);
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+}
+
+
+.btn-primary {
+    color: white;
+    background-color: rgb(45, 49, 68);
+    border-color: rgb(45, 49, 68);
+}
+
+/* .container > .btn {
+    display: block;
+    width: 100%;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    background-color: rgb(45, 49, 68);
+    text-align: left;
+    color: inherit;
+} */
+
+.set-img {
+    padding-bottom: 2rem;
+}
+
+.lt-footer {
+    font-family: 'Bungee Spice', cursive;
+    padding-top: 2rem;
+    background-color: rgb(22, 25, 43);
+}
+
+summary {
+    color:aliceblue;
+    
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+}
+
+
+
+/* ***** */
+
+.syllabus {
+    width: 100%;
+}
+
+.syllabus summary {
+    color: #fff;
+    text-align: left;
+    cursor: pointer;
+    padding: 10px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    background-color: rgb(45, 49, 68);
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 5px;
+}
+
+.syllabus summary:hover {
+    background-color: rgb(38, 41, 58);
+    color: #f0f0f0;
+}
+
+.syllabus details[open] summary {
+    background-color: rgb(38, 41, 58);
+    color: #f0f0f0;
+}
+
+.syllabus ul {
+    padding-left: 20px;
+    margin-top: 10px;
+    list-style-type: none;
+    color: #b0c4de;
+}
+
+.syllabus li {
+    margin: 8px 0;
+    font-size: 16px;
+    list-style-type: none;
+}
+
+.syllabus li a {
+    color: #5a9bd5;
+    text-decoration: none;
+}
+
+.syllabus li a:hover {
+    text-decoration: underline;
+}
+
+details > ul > li {
+    text-align: left;
+}
+
+/* Expandable Section Icon */
+details summary::-webkit-details-marker {
+    display: none;
+}
+
+
+details summary:before {
+    margin-right: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .custom-h1 {
+        margin-top: 50px;
+        font-size: 200%;
+    }
+
+    .syllabus summary {
+        font-size: 16px;
+    }
+
+    .syllabus li {
+        font-size: 14px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+}
